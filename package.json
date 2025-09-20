@@ -68,6 +68,7 @@
     "amqplib": "^0.10.8",
     "axios": "1.8.2",
     "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
     "cron": "^3.5.0",
     "docx": "^9.5.1",
     "docxtemplater": "^3.65.2",

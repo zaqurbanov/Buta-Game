@@ -43,6 +43,11 @@ export default await Env.create(new URL('../', import.meta.url), {
   BREVO_SENDER_NAME:Env.schema.string(),
   BREVO_SENDER_EMAIL:Env.schema.string(),
 
+  CLOUDINARY_API_KEY:Env.schema.string(),
+  CLOUDINARY_API_SECRET :Env.schema.string(),
+  CLOUDINARY_URL:Env.schema.string(), 
+  CLOUDINARY_NAME:Env.schema.string(),
+
   BASE_ROLE:Env.schema.string(),
   BASE_EMAIL:Env.schema.string(),
 })
